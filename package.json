@@ -1,0 +1,37 @@
+{
+  "name": "bump-anything",
+  "version": "0.0.0",
+  "description": "Bump *anything*!",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-jsonlint": "~1.0.4",
+    "grunt-simple-mocha": "~0.4.0",
+    "mocha": "~1.14.0",
+    "should": "~2.1.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christianbradley/bump-anything"
+  },
+  "keywords": [
+    "bump",
+    "semver",
+    "version",
+    "package",
+    "package.json",
+    "anything"
+  ],
+  "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianbradley/bump-anything/issues"
+  }
+}
