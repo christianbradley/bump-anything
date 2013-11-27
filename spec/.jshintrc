@@ -1,0 +1,20 @@
+{
+	"immed": true,
+	"eqeqeq": true,
+	"latedef": "nofunct",
+	"noarg": true,
+	"noempty": true,
+	"nonew": true,
+	"undef": true,
+	"unused": "vars",
+	"eqnull": true,
+	"laxcomma": true,
+	"smarttabs": true,
+	"node": true,
+	"globals": {
+		"describe": true,
+		"it": true,
+		"beforeEach": true,
+		"afterEach": true
+	}
+}
