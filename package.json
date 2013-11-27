@@ -2,7 +2,7 @@
   "name": "bump-anything",
   "version": "0.0.0",
   "description": "Bump *anything*!",
-  "main": "index.js",
+  "main": "src/bump-anything.js",
   "dependencies": {
     "grunt": "~0.4.2"
   },
