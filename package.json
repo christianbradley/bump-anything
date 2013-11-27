@@ -1,6 +1,6 @@
 {
   "name": "bump-anything",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bump *anything*!",
   "main": "src/bump-anything.js",
   "dependencies": {
