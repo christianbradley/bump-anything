@@ -1,4 +1,5 @@
 {
+	"boss": false,
 	"immed": true,
 	"eqeqeq": true,
 	"latedef": "nofunct",
@@ -10,5 +11,7 @@
 	"eqnull": true,
 	"laxcomma": true,
 	"smarttabs": true,
-	"node": true
+	"node": true,
+	"expr": true,
+	"-W093": false
 }
