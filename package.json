@@ -6,7 +6,11 @@
   "dependencies": {
     "grunt": "~0.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-jsonlint": "~1.0.4"
+  },
   "scripts": {
     "test": "grunt test"
   },
