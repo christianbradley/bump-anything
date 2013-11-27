@@ -85,4 +85,4 @@ module.exports = function(config) {
 		minor: function(locator) { return bump(locator, "minor"); },
 		patch: function(locator) { return bump(locator, "patch"); }
 	};
-}
+};
