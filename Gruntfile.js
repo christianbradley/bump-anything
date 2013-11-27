@@ -8,6 +8,14 @@ module.exports = function(grunt) {
 		},
 		jsonlint: {
 			all: ["package.json", ".jshintrc"]
+		},
+		simplemocha: {
+			options: {
+				require: ["should"],
+				ui: "bdd",
+				reporter: "spec"
+			},
+			all: { src: ["spec/**/*-spec.js"] }
 		}
 	};
 
@@ -17,7 +25,10 @@ module.exports = function(grunt) {
 	// Load tasks
 	grunt.loadNpmTasks('grunt-jsonlint');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-simple-mocha');
 
-	// Register the default task
-	grunt.registerTask('default', ['jsonlint', 'jshint']);
+	// Aliases
+	grunt.registerTask('lint', ['jsonlint', 'jshint']);
+	grunt.registerTask('test', ['simplemocha']);
+	grunt.registerTask('default', ['lint', 'test']);
 };
