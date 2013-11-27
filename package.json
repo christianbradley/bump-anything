@@ -1,0 +1,30 @@
+{
+  "name": "bump-anything",
+  "version": "0.0.0",
+  "description": "Bump *anything*!",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christianbradley/bump-anything"
+  },
+  "keywords": [
+    "bump",
+    "semver",
+    "version",
+    "package",
+    "package.json",
+    "anything"
+  ],
+  "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianbradley/bump-anything/issues"
+  }
+}
