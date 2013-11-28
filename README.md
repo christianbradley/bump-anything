@@ -113,6 +113,13 @@ If `options` are omitted, sane defaults will be used.
 Bump the resource specified by `locator` with the given version `type`.
 The `type` must be one of: "major", "minor", or "patch".
 
+The `promise` resolves with the following object:
+
+* locator: The `locator` specified in the call
+* type: The `type` specified in the call
+* oldVersion: The original version found in `content`
+* newVersion: The incremented version
+
 ---
 
 #### Bumper#major({string} locator) => Promise
