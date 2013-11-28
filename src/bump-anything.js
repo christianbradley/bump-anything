@@ -6,7 +6,11 @@ module.exports = (function() {
 		var $ = require("./configuration").create(configuration);
 
 		function bump(locator, type) {
-			var stored = {}, results = {}, promise;
+			var stored = {},
+				results = {
+					locator: locator,
+					type: type
+				}, promise;
 
 			function readContent()
 			{ return $.readContent(locator); }
